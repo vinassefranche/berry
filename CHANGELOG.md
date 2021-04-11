@@ -16,6 +16,10 @@ Yarn now accepts sponsorships! Please give a look at our [OpenCollective](https:
   - It will now create self-references for packages that don't depend on other versions of themselves.
   - It will now remove scope folders (e.g. `node_modules/@yarnpkg`) if they are empty or after removing a scoped dependency.
 
+### **Breaking Changes**
+
+- PnP fallbacks to `react-scripts` and `gatsby`'s dependencies has been removed since they cause hard to debug issues and those projects should work without them nowadays
+
 ### Bugfixes
 
 - `@yarnpkg/pnpify` now escapes paths correctly
