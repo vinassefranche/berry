@@ -5,7 +5,6 @@
   "main": "./sources/index.ts",
   "dependencies": {
     "@yarnpkg/fslib": "workspace:^",
-    "@yarnpkg/libzip": "workspace:^",
     "clipanion": "^3.0.1",
     "tslib": "^1.13.0"
   },
